@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portofolio eka</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-black">
+    <header
+      class="h-10vh fixed w-full display-flex flex-row bg-black items-center justify-center"
+    >
+      <nav>
+        <ul class="display-flex flex-row justify-between">
+          <li><a class="nav_link" href="#home">Home</a></li>
+          <li><a class="nav_link" href="#about">About</a></li>
+          <li><a class="nav_link" href="#projects">Projects</a></li>
+          <li><a class="nav_link" href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main
+      class="h-full w-full display-flex flex-col items-center justify-center"
+    >
+      <section
+        class="gap-x-20px text-30px pt-5vh w-80 min-h-screen display-flex flex-col items-center justify-center"
+        id="home"
+      >
+        <h1 class="font-light" id="greeting">Hi!
+          You can call me</h1>
+        <h1>Eka <span>Riyanto</span> </h1>
+        <h1 class="about font-light text-20px">
+          I work with React Ecosystem, and write to teach people how to rebuild and redefine fundamental concepts through mental models.
+        </h1>
+        <section
+          class="resume pt-20px gap-20px display-flex items-center justify-center"
+        >
+          <a href="https://github.com/ekariyanto" target="_blank">
+            <img
+              class="resume_icon h-35px"
+              src="./img/github.svg"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/eka-riyanto-933681253/"
+            target="_blank"
+          >
+            <img
+              class="resume_icon h-35px"
+              src="./img/linkedin.png"
+              alt=""
+            />
+          </a>
+        </section>
+      </section>
+      <section
+        class="flex-start pt-15vh w-80 min-h-screen display-flex flex-col items-center"
+        id="about"
+      >
+        <section class="container gap-20px flex-col align-start">
+          <section>
+            <h1 class="title text-30px"><span>About</span></h1>
+            <h1 class="description font-light">
+              Here I tell a little about me
+            </h1>
+          </section>
+          <section>
+            <p class="sub_title"><span> This is me </span></p>
+            <p class="sub_body">
+              I am an active 7th-semester student in the
+              Computer Science program at Gunadarma
+              University. I am an enthusiastic and highly
+              motivated individual with strong leadership and
+              initiative skills. I have a deep interest in the field
+              of Information Technology and thrive on
+              innovating within the realm of application
+              systems. I am currently seeking opportunities to
+              gain valuable experience and further enhance
+              my IT skills. I am passionate about challenges
+              and enjoy embracing new learning experiences
+              
+            </p>
+          </section>
+          <section>
+            <p class="sub_title"><span>Skills </span></p>
+            <section class="display-flex" id="skills">
+              <img class="skill_icon" src="./img/html.svg" />
+              <img class="skill_icon" src="./img/css.svg" />
+              <img class="skill_icon" src="./img/js.png" />
+            </section>
+          </section>
+        </section>
+      </section>
+      <section
+        class="flex-start pt-15vh w-80 display-flex flex-col items-center min-h-screen"
+        id="projects"
+      >
+        <section class="container gap-20px display-flex flex-col align-start">
+          <section>
+            <h1 class="title text-30px"><span>Projects</span></h1>
+           
+          </section>
+          <section class="grid">
+            <section class="card flex-col display-flex">
+          
+                <section class="card_image">
+                  <img
+                    class="w-full h-full"
+                    src="./img/page1.jpg"
+                    alt=""
+                  />
+                </section>
+              </a>
+            </section>
+            <section class="card flex-col display-flex">
+                <section class="card_image">
+                  <img
+                    class="w-full h-full"
+                    src="./img/login.jpg"
+                    alt=""
+                  />
+                </section>
+                <section class="card_body">
+                 
+                </section>
+              </a>
+            </section>
+            <section class="card flex-col display-flex">
+          
+                <section class="card_image">
+                  <img
+                    class="w-full h-full"
+                    src="./img/us.jpeg"
+                    alt=""
+                  />
+                </section>
+
+              </a>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section class="blog-section" id="blog">
+        <h3>Blog</h3>
+        <div class="articles-container">
+            <div class="article">
+                <img src="./img/blog2.jpg" alt="">
+            </div>
+            <div class="article">
+                <img src="./img/blok4.jpg" alt="">
+                <div class="article-text">
+                </div>
+            </div>
+            <div class="article">
+                <img src="./img/blog3.jpg" alt="">
+            </div>
+        </div>
+        
+    </section>
+    </main>
+    <script type="module" src="scrip.js"></script>
+  </body>
+</html>
